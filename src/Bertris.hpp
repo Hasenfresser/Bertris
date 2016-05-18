@@ -8,10 +8,12 @@
 */
 
 
+#include "Square.hpp"
+
 /**
 *   @namespace  Bertris
 *
-*   @brief      Main namespace of Bertris game
+*   @brief      Main namespace of Bertris game.
 */
 namespace Bertris {
 
@@ -19,19 +21,19 @@ namespace Bertris {
 /**
 *   @class  Bertris
 *
-*   @brief  main class of Bertris game
+*   @brief  Main class of Bertris game.
 */
 class Bertris {
 private:
 protected:
 public:
     /**
-    *   @brief  default constructor
+    *   @brief  Default constructor.
     */
     Bertris();
 
     /**
-    *   @brief  default destructor
+    *   @brief  Default destructor.
     */
     ~Bertris();
 };
