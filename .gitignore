@@ -1,0 +1,14 @@
+# binaries
+/bin/Debug/Bertris
+/bin/Release/Bertris
+
+# object files
+/obj
+
+# CodeBlocks files
+*.cbp
+*.depend
+*.layout
+
+# compiled doc files
+/doc
