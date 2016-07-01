@@ -11,4 +11,6 @@
 
 int main() {
     Bertris::Bertris Game;
+
+    Game.startGame();
 }
