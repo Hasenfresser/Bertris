@@ -24,6 +24,11 @@ Bertris::Bertris() {
 Bertris::~Bertris() {
 
 }
+
+
+void Bertris::startGame() {
+
+}
 } // end namespace
 
 #endif // !definded BERTRIS_HPP

@@ -17,12 +17,33 @@
 namespace Bertris {
 
 Square::Square() {
-
+    // this.Char = Char;
+    // this.Color = Color;
 }
 
 
 Square::~Square() {
 
+}
+
+
+void Square::setChar(int8_t &Char) {
+    this->Char = Char;
+}
+
+
+void Square::setColor(uint8_t &Color) {
+    this->Color = Color;
+}
+
+
+int8_t Square::getChar() {
+    return Char;
+}
+
+
+uint8_t Square::getColor() {
+    return Color;
 }
 } // end namespace
 
